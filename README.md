@@ -21,18 +21,18 @@
 ```json
 
 {
-    "name": "purecss",
-    "version": "0.6.2",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/yahoo/pure.git"
+    "authors": [
+        "ericf <edf@ericf.me>",
+        "tilomitra <tilomitra@gmail.com>",
+        "msweeney <matt.sweeney@yahoo.com>",
+        "jamesalley <manalagi001@yahoo.com>"
+    ],
+    "browser": "build/pure-min.css",
+    "bugs": {
+        "url": "https://github.com/yahoo/pure/issues"
     },
-    "scripts": {
-        "pretest": "grunt build",
-        "test": "grunt test && tap test/*.js",
-        "prepublish": "grunt release"
-    },
-    "files": "build/",
+    "dependencies": {},
+    "description": "Pure is a ridiculously tiny CSS library you can use to start any web project.",
     "devDependencies": {
         "autoprefixer": "^6.3.1",
         "bower": "^1.3.7",
@@ -51,26 +51,45 @@
         "grunt-stripmq": "0.0.6",
         "tap": "^8.0.1"
     },
-    "description": "Pure is a ridiculously tiny CSS library you can use to start any web project.",
-    "bugs": {
-        "url": "https://github.com/yahoo/pure/issues"
+    "directories": {},
+    "dist": {
+        "shasum": "f0827d227e909543c5138f36d56c8c613f476b8c",
+        "tarball": "https://registry.npmjs.org/purecss/-/purecss-0.6.2.tgz"
     },
+    "gitHead": "5518fad16a63ae0f168b904c6e95ccb6692cbd88",
     "homepage": "http://purecss.io",
-    "main": "index.js",
-    "browser": "build/pure-min.css",
     "keywords": [
         "pure",
         "css",
         "purecss",
         "yahoo"
     ],
-    "authors": [
-        "ericf <edf@ericf.me>",
-        "tilomitra <tilomitra@gmail.com>",
-        "msweeney <matt.sweeney@yahoo.com>",
-        "jamesalley <manalagi001@yahoo.com>"
+    "license": "BSD",
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "ericf"
+        },
+        {
+            "name": "jamesalley"
+        },
+        {
+            "name": "redonkulus"
+        }
     ],
-    "license": "BSD"
+    "name": "purecss",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/yahoo/pure.git"
+    },
+    "scripts": {
+        "prepublish": "grunt release",
+        "pretest": "grunt build",
+        "test": "grunt test && tap test/*.js"
+    },
+    "version": "0.6.2",
+    "bin": {}
 }
 ```
 
